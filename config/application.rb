@@ -18,5 +18,7 @@ module SampleRails
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    config.redis_sidekiq = config_for(:redis_sidekiq)
   end
 end
