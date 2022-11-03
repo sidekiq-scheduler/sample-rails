@@ -49,7 +49,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "sidekiq"
-gem "sidekiq-scheduler"
+gem "sidekiq-scheduler", github: "t27duck/sidekiq-scheduler", branch: "sidekiq7"
 
 
 group :development, :test do
