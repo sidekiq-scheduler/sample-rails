@@ -1,7 +1,8 @@
 GIT
-  remote: https://github.com/t27duck/sidekiq-scheduler.git
-  revision: 51abb81bd8270200d6a11a556063ee0d06df5941
-  branch: sidekiq7
+  remote: https://github.com/sidekiq-scheduler/sidekiq-scheduler.git
+  revision: 76573dbc46c73afa213331049cfc5657582dc376
+  ref: 76573dbc46c73afa213331049cfc5657582dc376
+  branch: master
   specs:
     sidekiq-scheduler (4.0.3)
       rufus-scheduler (~> 3.2)
