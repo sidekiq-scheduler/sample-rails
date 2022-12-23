@@ -48,8 +48,8 @@ gem "bootsnap", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-gem "sidekiq", "7.0.0"
-gem "sidekiq-scheduler", github: "sidekiq-scheduler/sidekiq-scheduler", branch: "master", ref: "76573dbc46c73afa213331049cfc5657582dc376"
+gem "sidekiq", "7.0.2"
+gem "sidekiq-scheduler", "5.0.0.beta1"
 
 
 group :development, :test do
