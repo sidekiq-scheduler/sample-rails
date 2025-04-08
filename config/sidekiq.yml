@@ -23,6 +23,7 @@ staging:
   :concurrency: 15
 
 scheduler:
+  :enabled: true
   :schedule:
     hello_world:
       cron: '0 * * * * *'   # Runs once per minute
